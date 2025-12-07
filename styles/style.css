@@ -1,0 +1,126 @@
+/* components */
+body {
+  height: 140vh;
+
+  padding: 10px;
+
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+  height: 40vh;
+
+  transform: rotate(0.2deg);
+}
+
+main {
+  height: 50vh;
+}
+
+footer {
+  height: 50vh;
+
+  transform: rotate(-0.5deg);
+}
+
+/* id */
+/* header */
+#navbar {
+  height: 5vh;
+
+  justify-content: space-between;
+}
+
+#navbar-pages a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar-pages a:hover {
+  color: darkslategrey;
+}
+
+#banner-title {
+  font-size: 60px;
+}
+
+/* main */
+#section-middle {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#aside-left-title {
+  height: 5vh;
+
+  justify-content: left;
+
+  padding-bottom: 8px;
+}
+
+#aside-left-list ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+#aside-left-list li {
+  border-bottom: 2px solid black;
+
+  font-size: 16px;
+
+  padding-block: 10px;
+  padding-left: 30px;
+}
+
+#article-right-description ul {
+  padding-left: 15px;
+}
+
+/* footer */
+#section-review {
+  height: 40vh;
+}
+
+#section-review-title {
+  height: 10vh;
+
+  justify-content: left;
+}
+
+#section-review-card-container {
+  height: 30vh;
+}
+
+#footer-copyrights {
+  height: 10vh;
+}
+
+/* classes */
+/* main */
+.article-block {
+  height: 25vh;
+
+  box-sizing: border-box;
+}
+
+.article-title, .article-description, .article-link {
+  padding-bottom: 10px;
+}
+
+/* footer */
+.review-card-container {
+  padding: 25px;
+}
+
+.review-card {
+  border: 2px solid black;
+  border-radius: 30px;
+
+  height: 20vh;
+}
+
+.border-top-none {
+  border-top: 0;
+}
