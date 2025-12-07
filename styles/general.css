@@ -1,0 +1,100 @@
+/* container heights */
+.height-50vh {
+  height: 50vh;
+}
+
+.height-35px {
+  height: 35vh;
+}
+
+/* font families */
+.just-me-again-down-here-regular {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font colors */
+.dgrey-font-color {
+  color: rgb(106, 106, 106);
+}
+
+/* font sizes */
+.font-15px {
+  font-size: 15px;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+.font-24px {
+  font-size: 24px;
+}
+
+.font-32px {
+  font-size: 32px;
+}
+
+/* paddings */
+.pad-inline-10px {
+  padding-inline: 10px;
+}
+
+.pad-inline-25px {
+  padding-inline: 25px;
+}
+
+.pad-block-10px {
+  padding-block: 10px;
+}
+
+.pad-block-15px {
+  padding-block: 15px;
+}
+
+.pad-up-10px {
+  padding-top: 10px;
+}
+
+.pad-up-15px {
+  padding-top: 15px;
+}
+
+.pad-left-10px {
+  padding-left: 10px;
+}
+
+.pad-right-20px {
+  padding-right: 20px;
+}
+
+.pad-bottom-10px {
+  padding-bottom: 10px;
+}
+
+/* display boxes */
+.flex {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-30-40 {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+/* borders */
+.border-2px-solid-black {
+  border: 2px solid black;
+}
+
+.border-top-2px-solid-black {
+  border-top: 2px solid black;
+}
